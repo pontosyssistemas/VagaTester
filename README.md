@@ -23,7 +23,7 @@ Você deverá criar um cenário de teste automatizado que simula o seguinte flux
 
 ### Requisitos da Entrega
 
-- **Automação:** Utilize a linguagem de programação e a ferramenta de automação que você se sentir mais confortável.
+- **Automação:** Utilize a linguagem de programação que você se sentir mais confortável.
 - **Código Fonte:** Suba o código no GitHub e compartilhe o link para avaliação.
 - **Prazo de Entrega:** 06/01/2025.
 - **Envio do Projeto:** Enviar o link do repositório GitHub para **Elvis**.
