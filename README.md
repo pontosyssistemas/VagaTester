@@ -8,9 +8,9 @@ Como Tester, você terá um papel fundamental em garantir que nossos produtos at
 
 ## Desafio Técnico
 
-Você deverá criar um cenário de teste automatizado que simula o seguinte fluxo no site da Ponto.Sys:
+Você deverá criar um cenário de teste automatizado que simula o seguinte fluxo no site do Virtual Store Web RC:
 
-1. **Acessar o site do Virtual Store Web RC:** [https://virtualstorerc.pontosys.com:4433]([https://pontosys.com](https://virtualstorerc.pontosys.com:4433)).
+1. **Acessar o Virtual Store Web RC:** [https://virtualstorerc.pontosys.com:4433]([https://pontosys.com](https://virtualstorerc.pontosys.com:4433)).
 2. **Realizar a configuração inicial:**
    - CNPJ: **11.111.111/1111-11**
    - Filial: **3**
