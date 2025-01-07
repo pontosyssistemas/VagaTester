@@ -26,7 +26,7 @@ Você deverá criar um cenário de teste automatizado que simula o seguinte flux
    - Informar o Vendedor "NENHUM".
    - Informar o Cliente "Isadora Macedo".
    - Clicar em continuar para finalizar o orçamento.
-   - Aguardar impressão do cupom na tela, e depois fechar pela seta <- localizada no header da página.
+   - Aguardar impressão do cupom na tela, e depois fechar pela seta <- localizada no header da aplicação.
    - Aguardar voltar para a tela inicial do Orçamento e limpar todos os dados da tela e finalizar o teste.
 5. **Observação:** Utilizar asserts, para definir se o teste passou ou falhou.
 
