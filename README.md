@@ -10,22 +10,31 @@ Como Tester, você terá um papel fundamental em garantir que nossos produtos at
 
 Você deverá criar um cenário de teste automatizado que simula o seguinte fluxo no site da Ponto.Sys:
 
-1. **Acessar o site da Ponto.Sys:** [https://pontosys.com](https://pontosys.com).
-2. **Fechar o comunicado inicial:** Uma janela inicial aparecerá na tela; feche-a.
-3. **Acessar o chat de atendimento:**
-   - Clique no botão **"Chat de atendimento"**.
-   - Isso redirecionará para uma nova página com um formulário.
-4. **Preencher o formulário e iniciar atendimento:**
-   - Preencha o formulário com os dados solicitados.
-   - Clique no botão **"Iniciar atendimento"**.
-5. **Finalizar o atendimento:**
-   - Na telinha do chat que abrirá, clique em **"Cancelar"** para encerrar o atendimento.
+1. **Acessar o site do Virtual Store Web RC:** [https://virtualstorerc.pontosys.com:4433]([https://pontosys.com](https://virtualstorerc.pontosys.com:4433)).
+2. **Realizar a configuração inicial:**
+   - CNPJ: **11.111.111/1111-11**
+   - Filial: **3**
+   - Transação padrão: **Orçamento**
+   - Transações permitidas: **Apenas orçamento**
+   - Dados supervisor: **Usuário: 15 e Senha: 2**
+3. **Realizar o login no sistema:** (Caso esteja dando conflito de login, pois outras pessoas podem estar utilizando o mesmo acesso, basta criar um usuário manualmente pelo sistema e utilizá-lo na automação)
+   - Usuário: **elvis@pontosys.com**
+   - Senha: **Elv@135790**
+4. **Abrir o menu Venda:**
+   - Validar se o tipo de transação é "Orçamento".
+   - Adicionar o produto "SALMÃO" no orçamento e clicar em "Finalizar venda".
+   - Informar o Vendedor "NENHUM".
+   - Informar o Cliente "Isadora Macedo".
+   - Clicar em continuar para finalizar o orçamento.
+   - Aguardar impressão do cupom na tela, e depois fechar pela seta <- localizada no header da página.
+   - Aguardar voltar para a tela inicial do Orçamento e limpar todos os dados da tela e finalizar o teste.
+5. **Observação:** Utilizar asserts, para definir se o teste passou ou falhou.
 
 ### Requisitos da Entrega
 
-- **Automação:** Utilize a linguagem de programação que você se sentir mais confortável.
+- **Automação:** Utilizar Python
 - **Código Fonte:** Suba o código no GitHub e compartilhe o link para avaliação.
-- **Prazo de Entrega:** 06/01/2025.
+- **Prazo de Entrega:** 17/01/2025.
 - **Envio do Projeto:** Enviar o link do repositório GitHub para **Elvis**.
 
 ## O que Será Avaliado?
@@ -34,10 +43,6 @@ Você deverá criar um cenário de teste automatizado que simula o seguinte flux
 - **Cobertura de Cenário:** Garantir que todos os passos do fluxo sejam contemplados.
 - **Organização do Código:** Boa estruturação e clareza no código.
 - **Documentação:** Caso necessário, inclua um README no repositório explicando como executar o teste.
-
-## Como se Candidatar?
-
-Se você tem interesse na vaga, entre em contato com o **Elvis** até o dia **03/12/2024**. Não perca a chance de mostrar suas habilidades e contribuir para a excelência dos nossos produtos!
 
 Boa sorte a todos os candidatos! 🍀
 
