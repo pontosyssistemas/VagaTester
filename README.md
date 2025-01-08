@@ -24,7 +24,7 @@ Você deverá criar um cenário de teste automatizado que simula o seguinte flux
    - Validar se o tipo de transação é "Orçamento".
    - Adicionar o produto "SALMÃO" no orçamento e clicar em "Finalizar venda".
    - Informar o Vendedor "NENHUM".
-   - Informar o Cliente "Isadora Macedo".
+   - Manter o Cliente "Consumidor".
    - Clicar em continuar para finalizar o orçamento.
    - Aguardar impressão do cupom na tela, e depois fechar pela seta <- localizada no header da aplicação.
    - Aguardar voltar para a tela inicial do Orçamento e aguardar limpar todos os dados da tela para finalizar o teste.
